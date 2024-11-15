@@ -1,0 +1,458 @@
+/* General body styling
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f8f9fa;
+    background-image: url('images/bghome.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Navbar styling
+.navbar-inverse {
+    background-color: #343a40;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff !important;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #ffc107 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff !important;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #495057 !important;
+    color: #ffc107 !important;
+}
+
+.navbar-inverse .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-inverse .dropdown-menu a {
+    color: #ffffff !important;
+}
+
+.navbar-inverse .dropdown-menu a:hover {
+    background-color: #495057 !important;
+    color: #ffc107 !important;
+}
+
+.navbar-toggle {
+    border-color: #495057;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+/* Jumbotron styling
+.jumbotron {
+    color: #343a40;
+    text-align: bottom-left 75%;
+    padding: 50px 25px;
+}
+
+.jumbotron h1 {
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.jumbotron h1:hover{
+    color: #ffc107;
+    cursor: pointer;
+}
+
+/* Modal styling
+.modal-header {
+    background-color: #343a40;
+    color: #ffffff;
+    border-bottom: none;
+    text-align: center;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.modal-body {
+    background-color: #f8f9fa;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.modal-footer .btn-brown {
+    background-color: #795548;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.modal-footer .btn-brown:hover {
+    background-color: #5d4037;
+}
+
+/* Input styling
+.md-form input,
+.md-form textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.md-form input:focus,
+.md-form textarea:focus {
+    border-color: #795548;
+    outline: none;
+}
+
+.md-form label {
+    font-size: 14px;
+    color: #495057;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Button styling
+button {
+    cursor: pointer;
+}
+
+button .fa-paper-plane {
+    margin-left: 5px;
+}
+
+/* General body styling */
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+     background-image: url('images/bghome.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: #f4f6f9;
+    color: #444;
+}
+
+/* Navbar styling */
+.navbar-inverse {
+    background-color: #343a40;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff !important;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #ffc107 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff !important;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #495057 !important;
+    color: #ffc107 !important;
+}
+
+.navbar-inverse .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-inverse .dropdown-menu a {
+    color: #ffffff !important;
+}
+
+.navbar-inverse .dropdown-menu a:hover {
+    background-color: #495057 !important;
+    color: #ffc107 !important;
+}
+
+.navbar-toggle {
+    border-color: #495057;
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: separate;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.table-hover tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Jumbotron styling */
+.jumbotron {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 60px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.jumbotron h1 {
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.jumbotron h1:hover{
+    color: #ffc107;
+    cursor: pointer;
+}
+
+.container-fluid.martop7 {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.jumbotron.jumcust {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.jumbotron.jumcust h2 {
+    font-size: 28px;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+.table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-hover tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table td a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.table td a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .table th,
+    .table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .jumbotron.jumcust h2 {
+        font-size: 24px;
+    }
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+/* Modal styling */
+.modal-header {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: none;
+    padding: 15px;
+}
+
+.modal-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+    border-top: none;
+    text-align: center;
+}
+
+.btn-brown {
+    background-color: #6c757d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-brown:hover {
+    background-color: #5a6268;
+}
+
+/* Form styling */
+.md-form input,
+.md-form textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.md-form input:focus,
+.md-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.md-form label {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Helper classes */
+.martop7 {
+    margin-top: 70px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 14px;
+    }
+
+    .jumbotron {
+        padding: 20px;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+}
+
+
+

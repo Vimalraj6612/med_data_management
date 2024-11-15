@@ -1,14 +1,23 @@
+{%load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'pharmacy/css/style.css' %}">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
     <title>Medicine Details</title>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a href="/pharma/" class="navbar-brand"><span
+            <a href="/pharmacy/" class="navbar-brand"><span
                     class="glyphicon glyphicon glyphicon-home"></span>&nbsp;HOME</a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#thisnav">
                 <span class="icon-bar"></span>
@@ -21,36 +30,36 @@
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dealer Management<b
                         class="caret"></b></a>
                     <ul id="dealer-menu" class="dropdown-menu inverse-dropdown">
-                        <li><a href="/pharma/dealerform/">Add Dealer Details</a></li>
-                        <li><a href="/pharma/dealertable/">View Dealer Details</a></li>
+                        <li><a href="/pharmacy/dealerform/">Add Dealer Details</a></li>
+                        <li><a href="/pharmacy/dealertable/">View Dealer Details</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Medicine Management<b
                         class="caret"></b></a>
                     <ul id="med-menu" class="dropdown-menu inverse-dropdown">
-                        <li><a href="/pharma/medform/">Add Medicine Details</a></li>
-                        <li><a href="/pharma/medtable/">View Medicine Details</a></li>
+                        <li><a href="/pharmacy/medform/">Add Medicine Details</a></li>
+                        <li><a href="/pharmacy/medtable/">View Medicine Details</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Employee Management<b
                         class="caret"></b></a>
                     <ul id="emp-menu" class="dropdown-menu inverse-dropdown">
-                        <li><a href="/pharma/empform/">Add Employee Details</a></li>
-                        <li><a href="/pharma/emptable/">View Employee Details</a></li>
+                        <li><a href="/pharmacy/empform/">Add Employee Details</a></li>
+                        <li><a href="/pharmacy/emptable/">View Employee Details</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Customer Management<b
                         class="caret"></b></a>
                     <ul id="cust-menu" class="dropdown-menu inverse-dropdown">
-                        <li><a href="/pharma/custform/">Add Customer Details</a></li>
-                        <li><a href="/pharma/custtable/">View Customer Details</a></li>
+                        <li><a href="/pharmacy/custform/">Add Customer Details</a></li>
+                        <li><a href="/pharmacy/custtable/">View Customer Details</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Purchase Information<b
                         class="caret"></b></a>
                     <ul id="cust-menu" class="dropdown-menu inverse-dropdown">
-                        <li><a href="/pharma/purchaseform/">New Purchase</a></li>
-                        <li><a href="/pharma/purchasetable/">View All Purchases</a></li>
+                        <li><a href="/pharmacy/purchaseform/">New Purchase</a></li>
+                        <li><a href="/pharmacy/purchasetable/">View All Purchases</a></li>
                     </ul>
                 </li>
             </ul>
@@ -58,7 +67,7 @@
     </div>
 </nav>
 <div class="modal fade" id="modalContactForm" tabindex="-1">
-    <form action="https://formspree.io/soham5959595@gmail.com" method="post">
+    <form action="https://formspree.io/f/mgveyqjy" method="post">
         {% csrf_token %}
         <div class="modal-dialog">
             <div class="modal-content">
@@ -108,7 +117,7 @@
         </div>
         <div class="panel-body">
             {% if med %}
-                <form action="/pharma/medformupdate{{ med.id }}/" method="post">
+                <form action="/pharmacy/medformupdate{{ med.id }}/" method="post">
                     {% csrf_token %}
                     <div class="row">
                         <div class="col-md-3 padtop5">
@@ -167,7 +176,7 @@
                     <div class="row" id="buttoncustom">
                         <div class="col-md-3"></div>
                         <div class="col-md-2 padtop15">
-                            <button type="submit" class="btn btn-default"><a href="/pharma/">Cancel</a></button>
+                            <button type="submit" class="btn btn-default"><a href="/pharmacy/">Cancel</a></button>
                         </div>
                         <div class="col-md-2 padtop15">
                             <button type="submit" class="btn btn-primary">
@@ -179,12 +188,12 @@
                         </div>
                         <div class="col-md-offset-8 padtop15">
                             <button type="submit" class="delbut btn btn-danger"><a
-                                    href="/pharma/medformdelete{{ med.id }}/">Delete Record</a></button>
+                                    href="/pharmacy/medformdelete{{ med.id }}/">Delete Record</a></button>
                         </div>
                     </div>
                 </form>
             {% else %}
-                <form action="/pharma/medforminsert/" method="post">
+                <form action="/pharmacy/medforminsert/" method="post">
                     {% csrf_token %}
                     <div class="row">
                         <div class="col-md-3 padtop5">
@@ -240,7 +249,7 @@
                     <div class="row" id="buttoncustom">
                         <div class="col-md-3"></div>
                         <div class="col-md-2 padtop15">
-                            <button type="submit" class="btn btn-default"><a href="/pharma/">Cancel</a></button>
+                            <button type="submit" class="btn btn-default"><a href="/pharmacy/">Cancel</a></button>
                         </div>
                         <div class="col-md-2 padtop15">
                             <button type="submit" class="btn btn-primary">
@@ -258,21 +267,6 @@
     </div>
 
 </div>
-<footer id="contact" class="container-fluid text-center">
-    <div class="row">
-        <div class="left-footer col-lg-6">
-            <span class="footer-text">Have any queries? Contact us via email or call or Whatsapp  us on +91 6263056779.</span>
-        </div>
-        <div class="col-lg-4"></div>
-        <div class="right-footer col-lg-2">
-                <span class="linkto" onclick=" window.open('https://projectworlds.in/', '_blank'); return false;"><i
-                        class="fab fa-globe-square prefix mr-1"></i> Projectworlds</span>
-            <span>-</span>
-            <span class="linkto" data-toggle="modal" data-target="#modalContactForm"><i
-                    class="fa fa-envelope prefix mr-1"></i> Contact Us</span>
-        </div>
-    </div>
-</footer>
 
 </body>
 </html>

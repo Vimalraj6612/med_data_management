@@ -1,569 +1,196 @@
-/* General body styling
+/* General Styles */
 body {
-    font-family: 'Helvetica', sans-serif;
-    margin: 0;
-    padding: 0;
-    /* background-color: #f8f9fa;
-    background-image: url('images/bghome.jpg');
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 70px;
+    background: url('images/bghome.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-attachment: fixed;
 }
 
-/* Navbar styling
-.navbar-inverse {
-    background-color: #343a40;
+/* Navbar */
+.navbar {
+    background-color: #343a40 !important;
     border: none;
-    border-radius: 0;
 }
 
 .navbar-inverse .navbar-brand {
     color: #ffffff !important;
+    font-weight: bold;
     font-size: 18px;
-    padding: 10px 15px;
-}
-
-.navbar-inverse .navbar-brand:hover {
-    color: #ffc107 !important;
 }
 
 .navbar-inverse .navbar-nav > li > a {
     color: #ffffff !important;
     font-size: 16px;
-    padding: 10px 15px;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover {
-    background-color: #495057 !important;
-    color: #ffc107 !important;
-}
-
-.navbar-inverse .dropdown-menu {
-    background-color: #343a40;
-    border: none;
-    border-radius: 0;
-}
-
-.navbar-inverse .dropdown-menu a {
-    color: #ffffff !important;
-}
-
-.navbar-inverse .dropdown-menu a:hover {
-    background-color: #495057 !important;
-    color: #ffc107 !important;
-}
-
-.navbar-toggle {
-    border-color: #495057;
-}
-
-.icon-bar {
-    width: 100%;
-    background-color: #555;
-    overflow: auto;
-}
-
-.icon-bar a {
-  float: left;
-  width: 20%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
-
-.icon-bar a:hover {
-  background-color: #000;
-}
-
-.active {
-  background-color: #04AA6D;
-}
-
-/* Jumbotron styling
-.jumbotron {
-    color: #343a40;
-    text-align: bottom-left 75%;
-    padding: 50px 25px;
-}
-
-.jumbotron h1 {
-    font-size: 38px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0;
-}
-
-.jumbotron h1:hover{
-    color: #ffc107;
-    cursor: pointer;
-}
-
-/* Modal styling
-.modal-header {
-    background-color: #343a40;
-    color: #ffffff;
-    border-bottom: none;
-    text-align: center;
-}
-
-.modal-title {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.modal-body {
-    background-color: #f8f9fa;
-}
-
-.modal-footer {
-    background-color: #f8f9fa;
-    border-top: none;
-}
-
-.modal-footer .btn-brown {
-    background-color: #795548;
-    color: #ffffff;
-    border: none;
-    font-size: 16px;
-    padding: 10px 20px;
+.navbar-inverse .navbar-nav .dropdown-menu {
+    background-color: #212529;
     border-radius: 5px;
 }
 
-.modal-footer .btn-brown:hover {
-    background-color: #5d4037;
-}
-
-/* Input styling
-.md-form input,
-.md-form textarea {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    width: 100%;
-    margin: 10px 0;
-    font-size: 14px;
-}
-
-.md-form input:focus,
-.md-form textarea:focus {
-    border-color: #795548;
-    outline: none;
-}
-
-.md-form label {
-    font-size: 14px;
-    color: #495057;
-    display: block;
-    margin-bottom: 5px;
-}
-
-/* Button styling
-button {
-    cursor: pointer;
-}
-
-button .fa-paper-plane {
-    margin-left: 5px;
-}
-
-/* General body styling */
-/* General body styling */
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('images/bghome.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    /* background-color: #f4f6f9;
-    color: #444; */
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-}
-
-/* Navbar styling */
-.navbar-inverse {
-    background-color: #343a40;
-    border: none;
-    border-radius: 0;
-}
-
-.navbar-inverse .navbar-brand {
-    color: #ffffff !important;
-    font-size: 18px;
-    padding: 10px 15px;
-}
-
-.navbar-inverse .navbar-brand:hover {
-    color: #ffc107 !important;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-    color: #ffffff !important;
-    font-size: 16px;
-    padding: 10px 15px;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover {
-    background-color: #495057 !important;
-    color: #ffc107 !important;
-}
-
-.navbar-inverse .dropdown-menu {
-    background-color: #343a40;
-    border: none;
-    border-radius: 0;
-}
-
-.navbar-inverse .dropdown-menu a {
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
     color: #ffffff !important;
 }
 
-.navbar-inverse .dropdown-menu a:hover {
-    background-color: #495057 !important;
-    color: #ffc107 !important;
+.navbar-inverse .navbar-nav .dropdown-menu > li > a:hover {
+    background-color: #495057;
 }
 
-.navbar-toggle {
-    border-color: #495057;
-}
-
-/* Table styling */
-.table {
-    width: 100%;
-    margin: 20px 0;
-    border-collapse: separate;
-    background-color: #ffffff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.table th,
-.table td {
-    padding: 12px 15px;
-    border-bottom: 1px solid #ddd;
-    text-align: left;
-}
-
-.table th {
+/* Fixed Button on Left Corner */
+.contact-btn {
+    position: fixed;
+    right: 20px; /* Adjust this for exact placement */
+    bottom: 20px; /* Adjust this for height */
     background-color: #007bff;
-    color: #ffffff;
-    font-weight: bold;
-}
-
-.table-hover tr:hover {
-    background-color: #f1f1f1;
-}
-
-/* Jumbotron styling */
-.jumbotron {
-    background-color: #ffffff;
-    padding: 30px;
-    margin-top: 60px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-}
-
-.jumbotron h1 {
-    font-size: 38px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0;
-}
-
-.jumbotron h1:hover{
-    color: #ffc107;
-    cursor: pointer;
-}
-
-.container-fluid.martop7 {
-    margin-top: 70px;
-    padding: 20px;
-}
-
-.jumbotron.jumcust {
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.jumbotron.jumcust h2 {
-    font-size: 28px;
-    color: #007bff;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-/* Table styling */
-.table {
-    width: 90%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    background-color: #ffffff;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.table th,
-.table td {
-    padding: 15px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-    font-size: 16px;
-}
-
-.table th {
-    background-color: #007bff;
-    color: #ffffff;
-    font-weight: bold;
-    text-align: center;
-}
-
-.table-hover tr:hover {
-    background-color: #f8f9fa;
-}
-
-.table td a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.table td a:hover {
-    text-decoration: underline;
-    color: #0056b3;
-}
-
-/* Container and panel styling */
-.container {
-    width: 50%; /* Adjust form width as needed */
-    margin-left: 10%; /* Push container slightly to the center-left */
-}
-
-.panel {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-
-/* Panel heading */
-.panel-heading h1 {
-    font-size: 24px;
-    margin: 0;
-    padding: 10px 0;
-    text-align: center;
-    color: #333333;
-    border-bottom: 1px solid #eeeeee;
-}
-
-/* Form labels and inputs */
-label {
-    font-weight: bold;
-    color: #555555;
-}
-
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-/* Button styling */
-button {
-    width: 100%;
-    padding: 10px 15px;
+    color: white;
     border: none;
-    border-radius: 4px;
+    padding: 12px 20px;
     font-size: 16px;
+    border-radius: 25px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-button.btn-default {
-    background-color: #f8f9fa;
-    color: #333333;
-    border: 1px solid #dddddd;
-    text-decoration: none;
-    text-align: center;
+/* Hover Effect - Expanding & Color Change */
+.contact-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
-button.btn-primary {
+/* Smooth Button Entrance */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.contact-btn {
+    animation: slideIn 0.5s ease-out;
+}
+
+/* Contact Form Modal */
+.modal-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.modal-header {
     background-color: #007bff;
-    color: #ffffff;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-button.btn-danger {
-    background-color: #dc3545;
-    color: #ffffff;
-}
-
-/* Button hover effects */
-button:hover {
-    opacity: 0.9;
-}
-
-/* Row spacing */
-.row {
+.modal-body .md-form {
     margin-bottom: 15px;
 }
 
-/* Padding helpers */
-.padtop5 {
-    padding-top: 5px;
-}
-
-.padtop15 {
-    padding-top: 15px;
-}
-
-/* Button alignment */
-#buttoncustom, #button_custom {
-    text-align: center;
-}
-
-#buttoncustom .btn, #button_custom .btn {
-    width: auto;
-    margin: 0 10px;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    .container {
-        width: 90%; /* Expand the form width for smaller screens */
-        margin-left: 5%; /* Adjust the left margin */
-    }
-
-    button {
-        font-size: 14px;
-    }
-}
-
-/* Footer styling */
-footer {
-    margin-top: 20px;
-    font-size: 16px;
-    color: #555;
-    text-align: center;
-    font-style: italic;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .table th,
-    .table td {
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    .jumbotron.jumcust h2 {
-        font-size: 24px;
-    }
-}
-
-/* Footer styling */
-footer {
-    margin-top: 20px;
-    font-size: 16px;
-    color: #555;
-    text-align: center;
-}
-
-/* Modal styling */
-.modal-header {
-    background-color: #007bff;
-    color: #ffffff;
-    text-align: center;
-    border-bottom: none;
-    padding: 15px;
-}
-
-.modal-title {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.modal-body {
-    padding: 20px;
-}
-
 .modal-footer {
-    border-top: none;
-    text-align: center;
+    justify-content: center;
 }
 
+/* Buttons */
 .btn-brown {
     background-color: #6c757d;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
+    color: white;
+    padding: 8px 20px;
     border-radius: 5px;
-    font-size: 14px;
+    border: none;
 }
 
 .btn-brown:hover {
     background-color: #5a6268;
 }
 
-/* Form styling */
-.md-form input,
-.md-form textarea {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
+
+
+/* Jumbotron */
+/* Center Jumbotron at the Top */
+.jumbotron {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
     width: 100%;
-    margin: 10px 0;
-    font-size: 14px;
 }
 
-.md-form input:focus,
-.md-form textarea:focus {
-    border-color: #007bff;
-    outline: none;
+/* Typing Effect */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
 }
 
-.md-form label {
-    font-size: 14px;
-    color: #666;
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
-/* Helper classes */
-.martop7 {
-    margin-top: 70px;
+/* Default H1 Style */
+#h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-right: 3px solid white; /* Simulating typing cursor */
+    animation: blinkCursor 0.8s infinite, colorFade 3s infinite alternate;
 }
 
-.text-center {
+/* Blinking Cursor Effect */
+@keyframes blinkCursor {
+    50% { border-color: transparent; }
+}
+
+
+#h1:hover {
+    color: #ffcc00;
+}
+
+/* Carousel */
+.homecar {
+    padding: 30px;
     text-align: center;
 }
 
-.text-right {
-    text-align: right;
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .navbar-inverse .navbar-nav > li > a {
-        font-size: 14px;
-    }
+.carousel-indicators li {
+    background-color: #007bff;
+}
 
+.carousel-control {
+    color: #007bff;
+}
+
+.carousel-control:hover {
+    color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
     .jumbotron {
         padding: 20px;
     }
 
-    .table {
-        font-size: 14px;
+    #h1 {
+        font-size: 2rem;
     }
 }
-
-
-

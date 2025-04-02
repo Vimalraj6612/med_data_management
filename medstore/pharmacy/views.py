@@ -27,7 +27,7 @@ def dealerforminsert(request):
         dealer.save()
     except IntegrityError:
         return render(request, "pharmacy/Error.html")
-    return render(request, 'pharmacy/index.html')
+    return render(request, 'pharmacy/msg.html')
 
 
 def dealerformupdate(request, foo):

@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a4a9adb-d553-40e9-9702-43de737a6375" name="Changes" comment="adding css style &amp; some modifies">
+      <change afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/msg.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medstore/pharmacy/static/pharmacy/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/static/pharmacy/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/Error.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/Error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/cust.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/cust.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/custtable.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/custtable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/dealer.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/dealer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/dealertable.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/dealertable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/emp.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/emp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/emptable.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/emptable.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/med.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/med.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/medtable.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/medtable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/purchase.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/purchase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/purchasetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/templates/pharmacy/purchasetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medstore/pharmacy/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/medstore/pharmacy/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +62,15 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Django\med_store_management\medstore\pharmacy\static\pharmacy\css\images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="med_store_management" />
@@ -116,13 +135,22 @@
       <option name="project" value="LOCAL" />
       <updated>1731676941642</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding css style &amp; some modifies">
+      <option name="closed" value="true" />
+      <created>1732208874037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732208874037</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="just study purpose and try to making project also" />
     <MESSAGE value="without css" />
-    <option name="LAST_COMMIT_MESSAGE" value="without css" />
+    <MESSAGE value="adding css style &amp; some modifies" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding css style &amp; some modifies" />
   </component>
 </project>
